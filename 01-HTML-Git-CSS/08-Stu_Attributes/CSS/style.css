@@ -1,0 +1,28 @@
+.stu-bio-title {
+  color: blue;
+}
+
+.name-bio-container {
+  background-color: antiquewhite;
+}
+
+.img {
+  border-radius: 60px 20px 60px 20px;
+  background-color: transparent;
+}
+
+.contact-title {
+  color: blue;
+}
+
+.email-ls-it {
+  background-color: darkgoldenrod;
+}
+
+.github-ls-it {
+  background-color: cadetblue;
+}
+
+.portfolio-ls-it {
+  background-color: chocolate;
+}
