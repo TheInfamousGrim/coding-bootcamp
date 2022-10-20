@@ -1,13 +1,26 @@
-/* TODO: Label selector type */
-* {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  }
+/* This describes the font families to be rendered in the browsers specifically for all HTML elements.
 
-/* TODO: Label selector type */
+Specifically this shows the order for the fonts to render and if say the first font fails to render it will go to the next until it reaches sans-serif which is worst case scenario if a browser doesn't recognize the font. */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* The background color of the body of the html (all the visible HTML elements) will have a color of lemonchiffon  */
 body {
   background-color: lemonchiffon;
 }
 
+/* for the header and footer html element, which are at the top and bottom of the page respectively the following styles.
+
+The whole element will stretch the full width of the body's padding (it would Be full screen but the body has margin).
+
+The height of the elements will be 100px.
+
+Line height is 100px (how much space there is between lines).
+
+Color of the text is as specified by the hex code.
+
+Background color of the elements is as specified by the hex code. */
 header,
 footer {
   width: 100%;
@@ -17,17 +30,21 @@ footer {
   background-color: #191970;
 }
 
+/* The figure element represents self-contained content with an optional caption.
+The width of the figure element is 200 pixels wide.
+The background color of the element is as specified by the hex code.
+ */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* the selector is selecting a class */
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* The selector is selecting an ID */
 #contact-section {
   background-color: #f0ead6;
 }

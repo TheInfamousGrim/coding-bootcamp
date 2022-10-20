@@ -1,0 +1,17 @@
+{
+  "name": "20-stu_inquirer-users",
+  "version": "1.0.0",
+  "description": "Work with a partner to implement the following user story:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Fincher",
+  "license": "ISC",
+  "devDependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "dependencies": {
+    "inquirer": "8.2.4"
+  }
+}
